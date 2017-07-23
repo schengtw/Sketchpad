@@ -8,13 +8,13 @@ body {
 }
 
 table {
-    border-spacing: 0.5em;
+    border-spacing: 0.2em;
 }
 
 td {
-    width: 4em;
-    height: 4em;
-    border: 1px solid gray;
+    width: 2em;
+    height: 2em;
+    background-color: #E6E6FA;
 }
 
 .change-background-color {
