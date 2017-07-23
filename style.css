@@ -1,22 +1,39 @@
 body {
     display: flex;
     flex-direction:column;
-    justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding: 0;
+    padding: 1em;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     color:#B0C4DE;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 h3 {
     font-size: 1.5em;
     color:#B0C4DE;
+    margin: 0.2em 0 0.8em;
+}
+
+.buttons {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+button{
+    margin: 0 2em;
+    padding: 0.6em 1.5em;
+    background-color: #DA70D6;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 0.5em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 table {
@@ -27,8 +44,8 @@ table {
 }
 
 td {
-    width: 2em;
-    height: 2em;
+    width: 1.6em;
+    height: 1.6em;
     background-color: #E6E6FA;
 }
 
